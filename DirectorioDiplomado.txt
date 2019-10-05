@@ -1,10 +1,4 @@
 César Lecona cesarlecona@gmail.com
 Bogar Saavedra  bgrgit95@gmail.com
-<<<<<<< HEAD
 Sayuri andriuscdrive@gmail.com
 Rocio Cortes rociocortes@gmail.com
-=======
-Marbella Escamilla escamillamarbella@gmail.com
-Sayuri andriuscdrive@gmail.com
-
->>>>>>> e86c9670faa6dd74ffd512174714852370873753
