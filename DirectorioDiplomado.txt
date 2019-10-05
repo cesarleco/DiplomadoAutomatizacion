@@ -1,10 +1,9 @@
 César Lecona cesarlecona@gmail.com
 Bogar Saavedra  bgrgit95@gmail.com
-<<<<<<< HEAD
 Sayuri andriuscdrive@gmail.com
+Nancy lenespejel22@gmail.com
+Abraham Arellano arellane00@gmail.com
 Rocio Cortes rociocortes@gmail.com
-=======
 Marbella Escamilla escamillamarbella@gmail.com
 Sayuri andriuscdrive@gmail.com
 Jimena Hernández jimena.heg6@gmail.com
->>>>>>> e86c9670faa6dd74ffd512174714852370873753
