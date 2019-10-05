@@ -1,8 +1,7 @@
-César Lecona cesarlecona@gmail.com
+﻿César Lecona cesarlecona@gmail.com
 Bogar Saavedra  bgrgit95@gmail.com
 Sayuri andriuscdrive@gmail.com
-<<<<<<< HEAD
+Nancy lenespejel22@gmail.com
 Abraham Arellano arellane00@gmail.com
-=======
 Rocio Cortes rociocortes@gmail.com
->>>>>>> 255dcfe9852fcb127a20400d2a1a7b1ec821b8cb
+
