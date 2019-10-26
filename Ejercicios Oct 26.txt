@@ -1,0 +1,7 @@
+Files
+1. Leer de dos archivos de texto y guardarlo en un tercero. Agregar manejo de excepciones
+Hash
+2. Almacenar 5 números en un hash, con un foreach iterarlos y sumarlos. Al final imprimir el resultado de la suma
+
+3. Almacenar 6 números en un hash e imprimir el máximo y el mínimo
+
