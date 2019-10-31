@@ -1,8 +1,10 @@
-listaHash = ["34", "45", "67", "3", "56"]
+listaHash = {"num_1"=>23, "num_2"=>54, "num_3"=>56, "num_4"=>67, "num_5"=>34}
 
-
+sum = 0
 listaHash.each do |k,v|
-  puts "El valor de : #{k} es: #{v}"
+  puts sum += v
+end
+
 
 
 

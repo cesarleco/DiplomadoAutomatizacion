@@ -6,7 +6,7 @@ require 'selenium-webdriver'
 
 
 
-Selenium::WebDriver::Chrome.driver_path='/Users/BASSP/RubymineProjects/Facebook/chromedriver'
+Selenium::WebDriver::Chrome.driver_path='/usr/local/bin/chromedriver'
 driver = Selenium::WebDriver.for :chrome
 driver.manage.window.maximize
 driver.navigate.to "http://www.redbus.in/"

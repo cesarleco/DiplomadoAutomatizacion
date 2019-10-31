@@ -13,5 +13,9 @@ listaHash = {"url1"=>"https://www.google.com.", "url2"=>"https://www.facebook.co
 
 listaHash.each do |k,v|
   puts "El valor de : #{k} es: #{v}"
-
+  # Obtener valores
 end
+
+# Ordenarlos
+# Obtener el minimo
+# Maximo

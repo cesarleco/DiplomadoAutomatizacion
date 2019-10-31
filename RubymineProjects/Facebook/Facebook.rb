@@ -2,7 +2,7 @@
 require 'selenium-webdriver'
 
 
-Selenium::WebDriver::Chrome.driver_path='/Users/BASSP/RubymineProjects/Facebook/chromedriver'
+Selenium::WebDriver::Chrome.driver_path='/usr/local/bin/chromedriver'
 caps = Selenium::WebDriver::Chrome::Options.new
 caps.add_argument("--start-maximized")
 driver = Selenium::WebDriver.for(:chrome, options: caps)
