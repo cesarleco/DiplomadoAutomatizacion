@@ -1,0 +1,8 @@
+En https://www.redbus.in/
+1. Validar la url
+2. Buscar origen [Chennai (All Locations)] y destino [Mumbai (All Locations)] 
+3. Seleccionar fecha de salida y fecha de regreso 
+4. Dar clic en buscar
+5. En la pantalla de resultados de la búsqueda agregar asserts para lo siguiente:
+- Número de autobuses encontrados
+- Validar los dos primeros títulos (textos), la hora de salida (Departure) y la hora de regreso (Arrival) de cada resultado (ejemplo: National Travels CHN)
