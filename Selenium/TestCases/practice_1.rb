@@ -5,7 +5,6 @@ require_relative '../BaseFile/test_automation_base'
 require_relative '../Assertions/assert'
 
 class Practice_1 < TestAutomationBase
-
   def testcaserun
     exercise = Practice1Page.new(@@driver)
     validacion = Assert.new
@@ -16,9 +15,13 @@ class Practice_1 < TestAutomationBase
     exercise.onward
     exercise.return
     exercise.search
-    @compare = validacion.compareText(exercise.getText, 'SRS Travels')
-    @compare = validacion.compareText(exercise.getTextSal, '05:30')
-    @compare = validacion.compareText(exercise.getTestLl, '06:30')
-    assert_true(@compare, '[Error] El mensaje no coincide con el esperado')
+    bus = validacion.compareText(exercise.getBus, '5 Buses found')
+    tittle = validacion.compareText(exercise.getText, 'SRS Travels')
+    lleg = validacion.compareText(exercise.getTextSal, '05:30')
+    sal = validacion.compareText(exercise.getTestLl, '06:30')
+    assert_true(bus, '[Error] No se encontro el texto de autobuses')
+    assert_true(tittle, '[Error] No se muestran correctamente el título')
+    assert_true(lleg, '[Error] La hora de salida no corresponde')
+    assert_true(sal, '[Error] La hora de llegada no corresponde')
   end
 end

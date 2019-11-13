@@ -14,7 +14,6 @@ class Practice1Page
   def selectTo(city)
     @driver.find_element(id: 'dest').send_keys(city)
     @driver.find_element(css: '#search > div > div:nth-child(3) > div > ul > li.selected').click
-
   end
 
   def onward
@@ -29,6 +28,10 @@ class Practice1Page
 
   def search
     @driver.find_element(:id, "search_btn").click
+  end
+
+  def getBus
+    return @driver.find_element(:xpath, '//div[@id="root"]/div/div[2]/div[2]/div/div/span').text
   end
 
   def getText
