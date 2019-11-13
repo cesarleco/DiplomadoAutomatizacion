@@ -15,14 +15,15 @@ class Home_Page
   end
   def onward()
     @driver.find_element(css:'#search > div > div.fl.search-box.date-box.gtm-onwardCalendar > div > label').click
-    @driver.find_element(css:'#rb-calendar_onward_cal > table > tbody > tr:nth-child(4) > td.current.day').click
+    @driver.find_element(css:'#rb-calendar_onward_cal > table > tbody > tr:nth-child(6) > td:nth-child(4)').click
 end
   def return()
     @driver.find_element(css:'#search > div > div.fl.search-box.date-box.gtm-returnCalendar > div > label').click
-    @driver.find_element(css:'#rb-calendar_return_cal > table > tbody > tr:nth-child(6) > td:nth-child(5)').click
+    @driver.find_element(css:'#rb-calendar_return_cal > table > tbody > tr:nth-child(7) > td:nth-child(6)').click
   end
   def search()
     @driver.find_element(css:'#search_btn').click
+    sleep 10
   end
   def getText()
     return @driver.find_element(css:'#root > div < div.t-center > div > h3').text

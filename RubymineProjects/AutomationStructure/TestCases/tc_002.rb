@@ -14,10 +14,11 @@ class TC_002 < TestAutomationBase
     homepage.onward()
     homepage.return()
     homepage.search()
-    #compare= validation.compareText(homepage.getText, 'Oops! No buses found.')
-   # assert_true(compare,'[Error] Message does not mach the expected')
 
-    bus=validation.compareBus(homepage.getBus, '5 Buses')
+    #compare= validation.compareText(homepage.getText, 'Oops! No buses found.')
+   #assert_true(compare,'[Error] Message does not mach the expected')
+
+    bus=validation.compareBus(homepage.getBus, '4 Buses')
     assert_true(bus,'[Error] Message does not mach the expected')
 
     tit1=validation.compareTit1(homepage.getTit1,'National Travels CHN')
@@ -35,6 +36,6 @@ class TC_002 < TestAutomationBase
     arr2=validation.compareArr2(homepage.getArr2,'13:35')
     assert_true(arr2,'[Error] Message does not mach the expected')
 
-    sleep(3)
+
   end
 end
