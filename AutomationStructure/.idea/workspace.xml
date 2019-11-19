@@ -19,6 +19,7 @@
   <component name="ProjectId" id="1TNxFdL9G4ZVDs8L7Mj2IQgBfjT" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -46,6 +47,20 @@
     </option>
   </component>
   <component name="RunManager" selected="Ruby.tc_002">
+    <configuration name="home_page" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="AutomationStructure" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/Pages" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Pages/home_page.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
     <configuration name="tc_001" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="AutomationStructure" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
@@ -77,6 +92,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Ruby.tc_002" />
+        <item itemvalue="Ruby.home_page" />
         <item itemvalue="Ruby.tc_001" />
       </list>
     </recent_temporary>
@@ -93,7 +109,8 @@
       <option name="presentableId" value="Default" />
       <updated>1573314251603</updated>
       <workItem from="1573314252693" duration="21663000" />
-      <workItem from="1573582212296" duration="1538000" />
+      <workItem from="1573582212296" duration="1555000" />
+      <workItem from="1574176940570" duration="14438000" />
     </task>
     <servers />
   </component>
@@ -123,7 +140,8 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/AutomationStructure@tc_002.rcov" NAME="tc_002 Coverage Results" MODIFIED="1573337124621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" MODULE_NAME="AutomationStructure" />
+    <SUITE FILE_PATH="coverage/AutomationStructure@tc_002.rcov" NAME="tc_002 Coverage Results" MODIFIED="1574204046829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" MODULE_NAME="AutomationStructure" />
+    <SUITE FILE_PATH="coverage/AutomationStructure@home_page.rcov" NAME="home_page Coverage Results" MODIFIED="1574200851201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pages" MODULE_NAME="AutomationStructure" />
     <SUITE FILE_PATH="coverage/AutomationStructure@tc_001.rcov" NAME="tc_001 Coverage Results" MODIFIED="1573321114646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" MODULE_NAME="AutomationStructure" />
   </component>
 </project>

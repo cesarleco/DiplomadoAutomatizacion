@@ -15,11 +15,11 @@ class Home_Page
   end
   def onward()
     @driver.find_element(css:'#search > div > div.fl.search-box.date-box.gtm-onwardCalendar > div > label').click
-    @driver.find_element(css:'#rb-calendar_onward_cal > table > tbody > tr:nth-child(4) > td.current.day').click
+    @driver.find_element(css:'#rb-calendar_onward_cal > table > tbody > tr:nth-child(6) > td.current.day').click
 end
   def return()
     @driver.find_element(css:'#search > div > div.fl.search-box.date-box.gtm-returnCalendar > div > label').click
-    @driver.find_element(css:'#rb-calendar_return_cal > table > tbody > tr:nth-child(6) > td:nth-child(5)').click
+    @driver.find_element(css:'#rb-calendar_return_cal > table > tbody > tr:nth-child(7) > td:nth-child(4)').click
   end
   def search()
     @driver.find_element(css:'#search_btn').click
@@ -28,10 +28,10 @@ end
     return @driver.find_element(css:'#root > div < div.t-center > div > h3').text
   end
   def getBus()
-    return @driver.find_element(css:'#root > div > div.srp-data.clearfix > div.sort-results.w-80.fl > div.sort-sec.clearfix.onward > div.w-30.fl > span.w-60.d-block.d-found > span').text
+    return @driver.find_element(css:'#root > div > div.srp-data.clearfix > div.sort-results.w-80.fl > div.sort-sec.clearfix.onward > div.w-30.fl > span.w-60.d-block.d-found').text
   end
   def getTit1()
-    return @driver.find_element(css:'#\31 1635702 > div > div.clearfix.bus-item-details > div.clearfix.row-one > div.column-two.p-right-10.w-30.fl > div.travels.lh-24.f-bold.d-color').text
+    return @driver.find_element(css:'#\31 3088767 > div > div.clearfix.bus-item-details > div.clearfix.row-one > div.column-two.p-right-10.w-30.fl > div.travels.lh-24.f-bold.d-color').text
   end
   def getTit2()
     return @driver.find_element(css:'#\31 3088767 > div > div.clearfix.bus-item-details > div.clearfix.row-one > div.column-two.p-right-10.w-30.fl > div.travels.lh-24.f-bold.d-color').text
@@ -48,6 +48,42 @@ end
   end
   def getArr2()
     return @driver.find_element(css:'#\31 3088767 > div > div.clearfix.bus-item-details > div.clearfix.row-one > div.column-five.p-right-10.w-10.fl > div.bp-time.f-19.d-color.disp-Inline').text
+  end
+  def node1()
+    @driver.find_element(css:'#rh_header > div > div > a').click
+  end
+  def node2()
+    @driver.find_element(css:'#redBus').click
+  end
+  def node3()
+    @driver.find_element(css:'body > header > div > div > nav.product-nav.mob-hide > a:nth-child(2)').click
+    end
+  def node4()
+    @driver.find_element(css:'#redBus\ Hotels').click
+  end
+  def node5()
+    @driver.find_element(css:'#rh_header > div.main-header-row > nav > div.lh > div > nav > ul > li:nth-child(4) > a').click
+  end
+  def node6()
+    @driver.find_element(css:'#page_main_header > nav > ul > li:nth-child(5) > a').click
+  end
+  def getNod1()
+    return @driver.find_element(css:'#redBus').text
+  end
+  def getNod2()
+    return @driver.find_element(css:'body > div.search-container > div.search-h1 > h1').text
+  end
+  def getNod3()
+    return @driver.find_element(css:'#mBWrapper > main > div.banner-wrapper > div > div > h1').text
+  end
+  def getNod4()
+    return @driver.find_element(css:'#rh_header > div.main-header-row > nav > div.lh > div > nav > ul > li:nth-child(3) > a').text
+  end
+  def getNod5()
+    return @driver.find_element(css:'#widget_header1 > span').text
+  end
+  def getNod6()
+    return @driver.find_element(css:'#home-wrapper > div > div > div > div > div.opening > h1').text
   end
 
   end
