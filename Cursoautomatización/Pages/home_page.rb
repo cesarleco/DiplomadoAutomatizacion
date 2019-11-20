@@ -48,4 +48,40 @@ class HomePage
   def getArr2()
     return @driver.find_element(css:'#\31 1634785 > div > div.clearfix.bus-item-details > div.clearfix.row-one > div.column-five.p-right-10.w-10.fl > div.bp-time.f-19.d-color.disp-Inline').text
   end
+  def nodo1()
+    @driver.find_element(css:'#rh_header > div > div > a').click
+  end
+  def nodo2()
+    @driver.find_element(css:'#redBus').click
+  end
+  def nodo3()
+    @driver.find_element(css:'body > header > div > div > nav.product-nav.mob-hide > a:nth-child(2)').click
+  end
+  def nodo4()
+    @driver.find_element(css:'#redBus\ Hotels').click
+  end
+  def nodo5()
+    @driver.find_element(css:'#rh_header > div.main-header-row > nav > div.lh > div > nav > ul > li:nth-child(4) > a').click
+  end
+  def nodo6()
+    @driver.find_element(css:'#page_main_header > nav > ul > li:nth-child(5) > a').click
+  end
+  def getNodo1()
+    return @driver.find_element(css:'#redBus').text
+  end
+  def getNodo2()
+    return @driver.find_element(css:'body > div.search-container > div.search-h1 > h1').text
+  end
+  def getNodo3()
+    return @driver.find_element(css:'#mBWrapper > main > div.banner-wrapper > div > div > h1').text
+  end
+  def getNodo4()
+    return @driver.find_element(css:'#rh_header > div.main-header-row > nav > div.lh > div > nav > ul > li:nth-child(3) > a').text
+  end
+  def getNodo5()
+    return @driver.find_element(css:'#widget_header1 > span').text
+  end
+  def getNodo6()
+    return @driver.find_element(css:'#home-wrapper > div > div > div > div > div.opening > h1').text
+  end
 end

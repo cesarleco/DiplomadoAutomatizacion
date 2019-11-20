@@ -64,4 +64,48 @@ class Assert
     end
     return resultArr2
   end
+
+  def compareNodo1(textNodo1,expectedNodo1)
+    resultNodo1= false
+    if(textNodo1.eql?(expectedNodo1))
+      resultNodo1=true
+    end
+    return resultNodo1
+  end
+  def compareNodo2(textNodo2,expectedNodo2)
+    resultNodo2= false
+    if(textNodo2.eql?(expectedNodo2))
+      resultNodo2=true
+    end
+    return resultNodo2
+  end
+  def compareNodo3(textNodo3,expectedNodo3)
+    resultNodo3= false
+    if(textNodo3.eql?(expectedNodo3))
+      resultNodo3=true
+    end
+    return resultNodo3
+  end
+  def compareNodo4(textNodo4,expectedNodo4)
+    resultNodo4= false
+    if(textNodo4.eql?(expectedNodo4))
+      resultNodo4=true
+    end
+    return resultNodo4
+  end
+  def compareNodo5(textNodo5,expectedNodo5)
+    resultNodo5= false
+    if(textNodo5.eql?(expectedNodo5))
+      resultNodo5=true
+    end
+    return resultNodo5
+  end
+  def compareNodo6(textNodo6,expectedNodo6)
+    resultNodo6= false
+    if(textNodo6.eql?(expectedNodo6))
+      resultNodo6=true
+    end
+    return resultNodo6
+  end
+
 end
