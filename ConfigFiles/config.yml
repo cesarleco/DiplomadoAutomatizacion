@@ -1,0 +1,8 @@
+appURL: 'https://facebook.com'
+url_bus: 'https://www.redbus.in/'
+appUrl12: 'https://www.redbus.in/'
+
+#locators
+from_id: 'src'
+from_locator_css: '#search > div > div.fl.search-box.clearfix > div > ul > li.selected'
+to_id: 'dest'
