@@ -9,18 +9,19 @@ class TC_001 < TestAutomationBase
   def test_case_001
     exercise = Exercise.new(@@driver)
     validacion = Assert.new
+    data_hash = JSON.parse(@@file)
     url1 = validacion.validateURL(@@driver, "https://www.etsy.com/mx/")
     titlepage1 = validacion.compareText(@@driver.title, "Etsy - Compra regalos hechos a mano, vintage, personalizados y únicos para todo el mundo")
     assert_true(titlepage1, "[Error] No se encontro el texto del elemento Etsy")
-    text1 = validacion.compareText(exercise.text1, 'Si está hecho a mano o es vintage, personalizado o único, está en Etsy.')
+    text1 = validacion.compareText(exercise.text1, data_hash['vintage'])
     assert_true(text1, "[Error] No se encontro el texto del elemento")
-    text2 = validacion.compareText(exercise.text2, 'Las joyas personalizadas brillan más.')
+    text2 = validacion.compareText(exercise.text2, data_hash['joyas'])
     assert_true(text2, "[Error] No se encontro el texto del elemento")
     text3 = validacion.compareText(exercise.text3, 'Artículos únicos')
     assert_true(text3, "[Error] No se encontro el texto del elemento")
-    text4 = validacion.compareText(exercise.text4, 'Vendedores independientes')
+    text4 = validacion.compareText(exercise.text4, data_hash['vendedores'])
     assert_true(text4, "[Error] No se encontro el texto del elemento")
-    text5 = validacion.compareText(exercise.text5, 'Compras seguras')
+    text5 = validacion.compareText(exercise.text5, data_hash['compras'])
     assert_true(text5, "[Error] No se encontro el texto del elemento")
 
     #Search
