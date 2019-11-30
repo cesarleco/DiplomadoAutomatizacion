@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8dc0bfe1-5206-4f9c-8e03-8454cc821d8f" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Ruby Class" />
+        <option value="Ruby File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1TNwtM0XxTx6QG9NwqAIYhwdZ4n" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Pages" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Tonantzin\RubymineProjects\AutomatitationStructure\Drivers" />
+      <recent name="C:\Users\Tonantzin\RubymineProjects\AutomatitationStructure\BasesFiles" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Tonantzin\RubymineProjects\Etsy Project\Pages" />
+      <recent name="C:\Users\Tonantzin\RubymineProjects\Etsy Project\Test" />
+      <recent name="C:\Users\Tonantzin\RubymineProjects\Etsy Project" />
+      <recent name="C:\Users\Tonantzin\RubymineProjects\EtsyProject\Pages" />
+      <recent name="C:\Users\Tonantzin\RubymineProjects\AutomatitationStructure\Pages" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Ruby.test_case03">
+    <configuration name="carr" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="AutomatitationStructure" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/Pages" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Pages/carr.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="home_page2" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="AutomatitationStructure" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/Pages" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Pages/home_page2.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_case01" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="AutomatitationStructure" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/Test" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Test/test_case01.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_case02" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="AutomatitationStructure" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/Test" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Test/test_case02.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_case03" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="AutomatitationStructure" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/Test" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Test/test_case03.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Ruby.test_case03" />
+        <item itemvalue="Ruby.carr" />
+        <item itemvalue="Ruby.test_case01" />
+        <item itemvalue="Ruby.test_case02" />
+        <item itemvalue="Ruby.home_page2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8dc0bfe1-5206-4f9c-8e03-8454cc821d8f" name="Default Changelist" comment="" />
+      <created>1573314074277</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573314074277</updated>
+      <workItem from="1573314075520" duration="21116000" />
+      <workItem from="1573490717336" duration="634000" />
+      <workItem from="1573519716318" duration="4429000" />
+      <workItem from="1573573738082" duration="11828000" />
+      <workItem from="1573748170560" duration="600000" />
+      <workItem from="1573771790271" duration="78000" />
+      <workItem from="1573772944510" duration="4000" />
+      <workItem from="1573829324848" duration="699000" />
+      <workItem from="1573841990352" duration="2514000" />
+      <workItem from="1573848559162" duration="796000" />
+      <workItem from="1573854096102" duration="308000" />
+      <workItem from="1574267262014" duration="844000" />
+      <workItem from="1574269119250" duration="1721000" />
+      <workItem from="1574275854580" duration="1801000" />
+      <workItem from="1574278147230" duration="8470000" />
+      <workItem from="1574354734558" duration="650000" />
+      <workItem from="1574364838871" duration="1381000" />
+      <workItem from="1574445238201" duration="7589000" />
+      <workItem from="1574522840532" duration="416000" />
+      <workItem from="1574523377379" duration="18845000" />
+      <workItem from="1574547901524" duration="5312000" />
+      <workItem from="1574692775327" duration="3156000" />
+      <workItem from="1574700403570" duration="18000" />
+      <workItem from="1574700477167" duration="6089000" />
+      <workItem from="1574707848236" duration="5972000" />
+      <workItem from="1574786383803" duration="1187000" />
+      <workItem from="1574813319308" duration="683000" />
+      <workItem from="1575050383983" duration="2244000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AutomatitationStructure@tc_003.rcov" NAME="tc_003 Coverage Results" MODIFIED="1574287075461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" MODULE_NAME="AutomatitationStructure" />
+    <SUITE FILE_PATH="coverage/Etsy_Project@carr.rcov" NAME="carr Coverage Results" MODIFIED="1575051813975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pages" MODULE_NAME="AutomatitationStructure" />
+    <SUITE FILE_PATH="coverage/Etsy_Project@test_case03.rcov" NAME="test_case03 Coverage Results" MODIFIED="1575052184691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="AutomatitationStructure" />
+    <SUITE FILE_PATH="coverage/EtsyProject@tc_001.rcov" NAME="tc_001 Coverage Results" MODIFIED="1574544491982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" MODULE_NAME="AutomatitationStructure" />
+    <SUITE FILE_PATH="coverage/Etsy_Project@TestCase_01.rcov" NAME="TestCase_01 Coverage Results" MODIFIED="1574548992898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="AutomatitationStructure" />
+    <SUITE FILE_PATH="coverage/EtsyProject@home_page.rcov" NAME="home_page Coverage Results" MODIFIED="1574535572815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pages" MODULE_NAME="AutomatitationStructure" />
+    <SUITE FILE_PATH="coverage/Etsy_Project@test_case02.rcov" NAME="test_case02 Coverage Results" MODIFIED="1575051383922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="AutomatitationStructure" />
+    <SUITE FILE_PATH="coverage/EtsyProject@tc_001__1_.rcov" NAME="tc_001 (1) Coverage Results" MODIFIED="1574544511939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../AutomatitationStructure/TestCases" MODULE_NAME="AutomatitationStructure" />
+    <SUITE FILE_PATH="coverage/AutomatitationStructure@home_page4.rcov" NAME="home_page4 Coverage Results" MODIFIED="1574286214925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pages" MODULE_NAME="AutomatitationStructure" />
+    <SUITE FILE_PATH="coverage/EtsyProject@tc_003.rcov" NAME="tc_003 Coverage Results" MODIFIED="1574544555011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" MODULE_NAME="AutomatitationStructure" />
+    <SUITE FILE_PATH="coverage/AutomatitationStructure@home_page.rcov" NAME="home_page Coverage Results" MODIFIED="1573522021873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pages" MODULE_NAME="AutomatitationStructure" />
+    <SUITE FILE_PATH="coverage/Etsy_Project@test_case01.rcov" NAME="test_case01 Coverage Results" MODIFIED="1575051446156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" MODULE_NAME="AutomatitationStructure" />
+    <SUITE FILE_PATH="coverage/AutomatitationStructure@tc_002.rcov" NAME="tc_002 Coverage Results" MODIFIED="1573336163913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" MODULE_NAME="AutomatitationStructure" />
+    <SUITE FILE_PATH="coverage/EtsyProject@home_page2.rcov" NAME="home_page2 Coverage Results" MODIFIED="1574542312897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pages" MODULE_NAME="AutomatitationStructure" />
+    <SUITE FILE_PATH="coverage/AutomatitationStructure@tc_004.rcov" NAME="tc_004 Coverage Results" MODIFIED="1574452685292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" MODULE_NAME="AutomatitationStructure" />
+    <SUITE FILE_PATH="coverage/Etsy_Project@home_page2.rcov" NAME="home_page2 Coverage Results" MODIFIED="1574707239851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pages" MODULE_NAME="AutomatitationStructure" />
+    <SUITE FILE_PATH="coverage/AutomatitationStructure@tc_001.rcov" NAME="tc_001 Coverage Results" MODIFIED="1573321013308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" MODULE_NAME="AutomatitationStructure" />
+    <SUITE FILE_PATH="coverage/EtsyProject@tc_002.rcov" NAME="tc_002 Coverage Results" MODIFIED="1574547409605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCases" MODULE_NAME="AutomatitationStructure" />
+    <SUITE FILE_PATH="coverage/AutomatitationStructure@home_page3.rcov" NAME="home_page3 Coverage Results" MODIFIED="1574286295841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pages" MODULE_NAME="AutomatitationStructure" />
+  </component>
+</project>
