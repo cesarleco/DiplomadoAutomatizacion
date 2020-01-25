@@ -1,0 +1,148 @@
+[
+  {
+    "uri": "features/cases/core/deeplinks_alerta.feature",
+    "id": "this-feature-is-created-for-we-could-will-testing-to-all-deeplinks-to-alls-countries-and-this-way-we-are-sure-that-deeplinks-is-working-that-better-way",
+    "keyword": "Feature",
+    "name": "This Feature is created for we could will testing to all deeplinks to alls countries and this way we are sure that deeplinks is working that better way",
+    "description": "  and in the some time they isn't broken in production enviroment, in this feature will find all flows about deeplinks.",
+    "line": 1,
+    "elements": [
+      {
+        "id": "this-feature-is-created-for-we-could-will-testing-to-all-deeplinks-to-alls-countries-and-this-way-we-are-sure-that-deeplinks-is-working-that-better-way;test-deeplink-and-register-user-for-test-the-flow-complete",
+        "keyword": "Scenario",
+        "name": "Test deeplink and register user for test the flow complete",
+        "description": "",
+        "line": 11,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@deepp1",
+            "line": 10
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 28000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4891788000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "An excel with information about depplinks records for alert",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/deeplinks_alerta.steps.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 148162000
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:53"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 28081000
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "When ",
+            "name": "I get a sheet where exist the information",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/deeplinks_steps.rb:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 894000
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:53"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 32390000
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "And ",
+            "name": "I perform deep flow by country for deeplink alert",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/deeplinks_alerta.steps.rb:4"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": " (Selenium::WebDriver::Error::InvalidSessionIdError)\n./features/pages/deeplink_page.rb:149:in `block in register_deeplink_alert'\n./features/pages/deeplink_page.rb:147:in `each_with_index'\n./features/pages/deeplink_page.rb:147:in `register_deeplink_alert'\n./features/step_definitions/deeplinks_alerta.steps.rb:6:in `/^I perform deep flow by country for deeplink alert$/'\nfeatures/cases/core/deeplinks_alerta.feature:14:in `And I perform deep flow by country for deeplink alert'",
+              "duration": 29503894000
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:53"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:38"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": " (Selenium::WebDriver::Error::InvalidSessionIdError)\n/Users/BASSP/cm_music_web/helpers/evidence_handler.rb:88:in `save_error'\n./features/support/hooks.rb:44:in `After'",
+              "duration": 3730000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": " (Selenium::WebDriver::Error::InvalidSessionIdError)",
+              "duration": 1850000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,147 @@
+[
+  {
+    "uri": "features/cases/core/deeplinks_new.feature",
+    "id": "the-commercial-areas-request-that-sharing-links-(deeplinks)-in-social-networks-or-other-media,",
+    "keyword": "Feature",
+    "name": "The commercial areas request that sharing links (deeplinks) in social networks or other media,",
+    "description": "  they allows the reproduction of content on the CM website, without access.",
+    "line": 1,
+    "elements": [
+      {
+        "id": "the-commercial-areas-request-that-sharing-links-(deeplinks)-in-social-networks-or-other-media,;validation-of-the-content-from-deeplinks-in-chrome-mobile",
+        "keyword": "Scenario",
+        "name": "Validation of the content from deeplinks in chrome mobile",
+        "description": "",
+        "line": 5,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@ndeep1",
+            "line": 4
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22020
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15810
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1514741818
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "An excel with information about depplinks for mobile",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/new_deeplink_steps.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2111082
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:53"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 767818071
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "When ",
+            "name": "I get a sheet where exist the information for mobile",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/new_deeplink_steps.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43465
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:53"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 59274717
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "And ",
+            "name": "I make the complete flow for deeplinks for country for chrome mobile",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/new_deeplink_steps.rb:12"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "An element could not be located on the page using the given search parameters. (Selenium::WebDriver::Error::NoSuchElementError)\nNoSuchElementError: An element could not be located on the page using the given search parameters.\n    at AndroidDriver.findElOrEls (/home/linuxbrew/.linuxbrew/lib/node_modules/appium/node_modules/appium-android-driver/lib/commands/find.js:75:11)\n./features/pages/deeplink_new_page.rb:129:in `block in get_deepklink_chrome'\n./features/pages/deeplink_new_page.rb:126:in `each_with_index'\n./features/pages/deeplink_new_page.rb:126:in `get_deepklink_chrome'\n./features/step_definitions/new_deeplink_steps.rb:15:in `/^I make the complete flow for deeplinks for country for chrome mobile$/'\nfeatures/cases/core/deeplinks_new.feature:8:in `And I make the complete flow for deeplinks for country for chrome mobile'",
+              "duration": 569098881680
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:53"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:38"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "No such file or directory - the file './mp4s/Validation_of_the_content_from_deeplinks_in_chrome_mobile20191223_1744.mp4' does not exist (Errno::ENOENT)\n./features/support/hooks.rb:48:in `After'",
+              "duration": 433362687
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 77982
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

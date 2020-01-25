@@ -1,0 +1,192 @@
+[
+  {
+    "uri": "features/cases/core/jet.feature",
+    "id": "this-feature-the-title-of-the-page-and-the-text-of-the-home-will-be-validated.",
+    "keyword": "Feature",
+    "name": "This feature the title of the page and the text of the home will be validated.",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "this-feature-the-title-of-the-page-and-the-text-of-the-home-will-be-validated.;try-deep-to-test-the-full-flow",
+        "keyword": "Scenario",
+        "name": "Try deep to test the full flow",
+        "description": "",
+        "line": 4,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@new0",
+            "line": 3
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 38000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2262185000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I visit url \"https://www.clarovideo.com/mexico/homeuser\" and wait for load page",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/jet_steps.rb:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12300884000
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:53"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 1023485000
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "And ",
+            "name": "I get the page url",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/jet_steps.rb:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5008492000
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:53"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 939280000
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "When ",
+            "name": "I validate the page title",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/jet_steps.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12105023000
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:53"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 1011635000
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "And ",
+            "name": "I will validate the footer elements",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/jet_steps.rb:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7934061000
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:53"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 975806000
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "And ",
+            "name": "I validate without coinsiden the url",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/jet_steps.rb:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8153951000
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:53"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 1012758000
+                }
+              }
+            ]
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 323117000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.29.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 120000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

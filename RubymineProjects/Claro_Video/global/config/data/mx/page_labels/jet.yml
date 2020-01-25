@@ -1,0 +1,30 @@
+inicio: (//div[contains(.,'Inicio')])[9]
+catalogo: (//div[contains(.,'Catálogo')])[9]
+generos: (//div[contains(.,'Géneros')])[9]
+compra: (//div[contains(.,'Compra y Renta')])[9]
+canales: (//div[contains(.,'Canales')])[9]
+kids: //img[contains(@alt,'Kids')]
+
+carrusel1: //h4[contains(.,'Claro video te recomienda')]
+carrusel2: //h4[contains(.,'Nominados Oscar 2020')]
+
+pie_pagina1: (//p[contains(.,'Contáctanos llamando sin costo al 800 252 9999')])[1]
+pie_pagina2: (//span[contains(.,'Chat Ayuda en Línea')])[1]
+pie_pagina3: (//a[contains(.,'Tutoriales en video')])[1]
+pie_pagina4: (//a[contains(.,'Tutoriales')])[2]
+pie_pagina5: (//a[contains(.,'Preguntas Frecuentes')])[1]
+pie_pagina6: (//a[contains(.,'Requerimientos Mínimos')])[1]
+pie_pagina7: (//a[contains(.,'Términos y Condiciones')])[1]
+pie_pagina8: (//a[contains(.,'Políticas de Privacidad')])[1]
+pie_pagina9: (//a[contains(.,'Términos de Promociones')])[1]
+pie_pagina10: (//a[contains(.,'Licencia Usuario Final')])[1]
+#pie_pagina11: (//i[@class='fa fa-twitter'])[2]
+#pie_pagina12: (//i[@class='fa fa-facebook'])[2]
+#pie_pagina13: (//i[@class='fa fa-google-plus'])[2]
+#pie_pagina14: (//i[@class='fa fa-youtube-play'])[2]
+
+imagen1: //div[@id="app"]/div/div[1]/div[2]/div/div/section[3]/div[2]/div/div/div[1]/ul/li[1]/div/div/div/div/div/div/a
+imagen2: //div[@id="app"]/div/div[1]/div[2]/div/div/section[3]/div[2]/div/div/div[1]/ul/li[2]/div/div/div/div/div/div/a
+imagen3: //div[@id="app"]/div/div[1]/div[2]/div/div/section[3]/div[2]/div/div/div[1]/ul/li[3]/div/div/div/div/div/div/a
+imagen4: //div[@id="app"]/div/div[1]/div[2]/div/div/section[3]/div[2]/div/div/div[1]/ul/li[4]/div/div/div/div/div/div/a
+

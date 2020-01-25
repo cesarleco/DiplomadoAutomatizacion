@@ -1,0 +1,15 @@
+
+# Prioridad 0
+
+web-0: --tags @<%=ENV['TAG'].to_s.downcase%> -f pretty -f html --out reports/<%=Time.now.strftime('%F')%>/<%=ENV['ENVIRON'].to_s.downcase%>/<%=Time.now.strftime("%H%M%S")%>-<%=ENV['BROW'].to_s.downcase%>-<%=ENV['ENVIRON'].to_s.downcase%>-<%=ENV['COUNT'].to_s.downcase%>-sus-monitoreo.html -f pretty -f json -o json/<%=ENV['BROW'].to_s.downcase%>-<%=ENV['ENVIRON'].to_s.downcase%>-<%=ENV['COUNT'].to_s.downcase%>-priority_0.json
+web-1: --tags @<%=ENV['TAG'].to_s.downcase%> -f pretty -f html --out reports/<%=Time.now.strftime('%F')%>/<%=ENV['ENVIRON'].to_s.downcase%>/<%=Time.now.strftime("%H%M%S")%>-<%=ENV['BROW'].to_s.downcase%>-<%=ENV['ENVIRON'].to_s.downcase%>-<%=ENV['COUNT'].to_s.downcase%>-sus-monitoreo.html -f pretty -f json -o json/<%=ENV['BROW'].to_s.downcase%>-<%=ENV['ENVIRON'].to_s.downcase%>-<%=ENV['COUNT'].to_s.downcase%>-priority_1.json
+web-2: --tags @<%=ENV['TAG'].to_s.downcase%> -f pretty -f html --out reports/<%=Time.now.strftime('%F')%>/<%=ENV['ENVIRON'].to_s.downcase%>/<%=Time.now.strftime("%H%M%S")%>-<%=ENV['BROW'].to_s.downcase%>-<%=ENV['ENVIRON'].to_s.downcase%>-<%=ENV['COUNT'].to_s.downcase%>-sus-monitoreo.html -f pretty -f json -o json/<%=ENV['BROW'].to_s.downcase%>-<%=ENV['ENVIRON'].to_s.downcase%>-<%=ENV['COUNT'].to_s.downcase%>-priority_2.json
+
+# DST (Daily Status Test)
+dst: --tags '@<%=ENV['TAG'].to_s.downcase%> and @<%=ENV['BROW'].to_s.downcase%> and @<%=ENV['COUNT'].to_s.downcase%>' -f pretty -f html --out reports/<%=Time.now.strftime('%F')%>/<%=ENV['ENVIRON'].to_s.downcase%>/<%=Time.now.strftime("%H%M%S")%>-<%=ENV['BROW'].to_s.downcase%>-<%=ENV['ENVIRON'].to_s.downcase%>-<%=ENV['COUNT'].to_s.downcase%>-dst.html -f pretty -f json --out json/<%=ENV['BROW'].to_s.downcase%>-<%=ENV['ENVIRON'].to_s.downcase%>-<%=ENV['COUNT'].to_s.downcase%>-priority_0.json
+
+# MON (MONITORING)
+mon: --tags @<%=ENV['TAG'].to_s.downcase%> -f pretty -f html --out reports/<%=Time.now.strftime('%F')%>/<%=ENV['ENVIRON'].to_s.downcase%>/<%=Time.now.strftime("%H%M%S")%>-<%=ENV['BROW'].to_s.downcase%>-<%=ENV['ENVIRON'].to_s.downcase%>-<%=ENV['COUNT'].to_s.downcase%>-monitoreo.html -f pretty -f json --out json/<%=ENV['BROW'].to_s.downcase%>-<%=ENV['ENVIRON'].to_s.downcase%>-<%=ENV['COUNT'].to_s.downcase%>-monitoring.json
+
+# API (MONITORING COUNTRIES)
+api_c: --tags @<%=ENV['TAG'].to_s.downcase%> --tags @<%=ENV['COUNT'].to_s.downcase%> -f pretty -f html --out reports/<%=Time.now.strftime('%F')%>/<%=ENV['ENVIRON'].to_s.downcase%>/<%=Time.now.strftime("%H%M%S")%>-<%=ENV['BROW'].to_s.downcase%>-<%=ENV['ENVIRON'].to_s.downcase%>-<%=ENV['COUNT'].to_s.downcase%>-monitoreo_api.html -f pretty -f json --out json/<%=ENV['BROW'].to_s.downcase%>-<%=ENV['ENVIRON'].to_s.downcase%>-<%=ENV['COUNT'].to_s.downcase%>-api_monitoring.json
